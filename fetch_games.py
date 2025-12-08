@@ -26,13 +26,13 @@ def main():
             timeout=10,  # prevent hanging forever
         )
     except Exception as e:
-        print("❌ NBA API error:", repr(e))
+        print("NBA API error:", repr(e))
         return
 
     # Convert response to DataFrame
     dfs = resp.get_data_frames()
     if not dfs:
-        print("❌ No data frames returned from NBA API.")
+        print("No data frames returned from NBA API.")
         return
 
     df = dfs[0]
