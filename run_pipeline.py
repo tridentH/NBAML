@@ -1,6 +1,7 @@
 from fetch_games import fetch_games_for_season
 from src.features.team_game_stats import build_team_games
 from src.features.rolling_stats import build_rolling_features
+from src.features.merge_labels import merge_labels
 from src.models.simple_strength import compute_strength
 
 
@@ -23,7 +24,8 @@ def main():
         fetch_games_for_season(season)
         build_team_games(season)
         build_rolling_features(season)
-        compute_strength(season)
+        merge_labels(season)       # <- adds champion / is_champion
+        compute_strength(season)   # <- simple season-level ranking
 
     print("\nPipeline complete! 🎉")
 
