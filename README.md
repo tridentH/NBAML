@@ -18,6 +18,7 @@ Trains a Logistic Regression classifier
 Predicts championship probabilities for any season
 
 Project Structure
+"""
 NBAML/
 ├── run_pipeline.py
 ├── fetch_games.py
@@ -35,7 +36,8 @@ NBAML/
 │   │   └── predict_season.py
 │   ├── utils/
 │       └── paths.py
-├── .data/                # ignored
+├── .data/                # (ignored by Git)
 ├── artifacts/
 │   └── logreg_champion_model.joblib
 └── requirements.txt
+"""
