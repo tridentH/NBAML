@@ -1,5 +1,5 @@
 
-<strong>NBAML — NBA Championship Odds Machine Learning Pipeline <strong/>
+<strong><center>NBAML — NBA Championship Odds Machine Learning Pipeline <center/><strong/>
 
 Predicting championship probabilities using real NBA game data (2018–2024)
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" /> <img src="https://img.shields.io/badge/Build-Passing-brightgreen" /> <img src="https://img.shields.io/badge/ML-Logistic%20Regression-orange" /> <img src="https://img.shields.io/badge/Data-NBA_API-red?logo=basketball" /> </p>
